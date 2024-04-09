@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body{
+    height:100vh;
+    display:flex;
+}
+h2{
+    font-size:30px;
+    margin-bottom: 30px;
+}
+h2>span{
+    font-weight: 500;
+}
+.container{
+    position:relative;
+    padding:30px 40px;
+}
+.row{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: start;
+    /* background-color: aqua; */
+    margin-bottom: 20px;
+}
+.col-50{
+    max-width: 50%;
+    width:50%;
+    flex:0 0 50%;
+    padding-right:15px;
+}
+
+
+
+/* partition */
+.sidebar{
+    padding:20px 20px;
+    min-height:110vh;
+    max-width:20%;
+    width:20%;
+    flex:0 0 20%;
+    background-color: rgb(39, 38, 38);
+    color:white;
+}
+
+.main{
+    max-width:80%;
+    width:80%;
+}
+/* navbar */
+nav{
+   padding:20px 20px;
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+}
+nav .nav_list{
+    /* background-color: aqua; */
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:20px;
+}
+nav .nav_list img{
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px grey;
+}
+/* main body part */
+main{
+    background-color: rgb(232, 227, 227);
+}
+.figure-div{
+    background-color: white;
+    padding:20px;   
+}
+.figure-div p{
+    font-weight: 800;
+    color:grey;
+    font-size: 13px;
+}
+figure img{
+    width:100%;
+}
+.card{
+    background-color: white;
+    padding:25px; 
+    position:relative;   
+}
+.card-body h3{
+    font-size: 13px;
+    font-weight: 800;
+    color:grey;
+    margin-bottom: 30px;
+}
+
+.card-icon{
+    background-color: rgb(182, 182, 240);
+    color:rgb(5, 5, 144);
+    display:inline-block;
+    height:33px;
+    width:34px;
+    padding:4px;
+    border-radius: 50%;
+    text-align: center;
+    position:absolute;
+    top:40px;
+    right:30px;
+}
+.card-main{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.card-report{
+    font-size: 13px;
+    color:grey;
+    font-weight: 600;
+}
+.increase,.decrease{
+    margin-right: 4px;
+    font-weight: 700;
+    font-size: 12px;
+}
+.increase{
+    color:#05c328;
+}
+.decrease{
+    color:red;
+}
+
